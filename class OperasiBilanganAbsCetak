@@ -1,0 +1,60 @@
+package modul5;
+
+public final class OperasiBilanganAbsCetak {
+    public static void main (String [] args ){
+        
+        OperasiPenjumlahan tambah =new OperasiPenjumlahan ();
+        tambah.set_A(6.5);
+        tambah.set_B(0.5);
+        tambah.set_C();
+        
+        System.out.println("=======================");
+        System.out.println("==OPERASI PENJUMLAHAN==");
+        System.out.println("=======================");
+        System.out.println("Bilangan A : 6.5 ");
+        System.out.println("Bilangan B : 0.5 ");
+        System.out.println("A + B      : " + tambah.get_C());
+        System.out.println(" ");
+        
+        OperasiPengurangan kurang =new OperasiPengurangan ();
+        kurang.set_A(6.5);
+        kurang.set_B(0.5);
+        kurang.set_C();
+        
+        System.out.println("=======================");
+        System.out.println("==OPERASI PENGURANGAN==");
+        System.out.println("=======================");
+        System.out.println("Bilangan A : 6.5 ");
+        System.out.println("Bilangan B : 0.5 ");
+        System.out.println("A - B      : " + kurang.get_C());
+        System.out.println(" ");
+        
+        OperasiPerkalian kali = new OperasiPerkalian ();
+        kali.set_A(6.5);
+        kali.set_B(0.5);
+        kali.set_C();
+        
+        System.out.println("=======================");
+        System.out.println("===OPERASI PERKALIAN===");
+        System.out.println("=======================");
+        System.out.println("Bilangan A : 6.5 ");
+        System.out.println("Bilangan B : 0.5 ");
+        System.out.println("A * B      : " + kali.get_C());
+        System.out.println(" ");
+        
+        OperasiPembagian bagi =new OperasiPembagian ();
+        bagi.set_A(6.5);
+        bagi.set_B(0.5);
+        bagi.set_C();
+        
+        System.out.println("=======================");
+        System.out.println("===OPERASI PEMBAGIAN===");
+        System.out.println("=======================");
+        System.out.println("Bilangan A : 6.5 ");
+        System.out.println("Bilangan B : 0.5 ");
+        System.out.println("A / B      : " + bagi.get_C());
+        System.out.println(" ");
+        
+        
+    }
+}
